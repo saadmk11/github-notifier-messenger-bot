@@ -1,5 +1,4 @@
 github_bot/
-db.sqlite3
 .idea/
 
 # Created by https://www.gitignore.io/api/python
