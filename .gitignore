@@ -4,6 +4,8 @@ bin/
 include/
 pip-selfcheck.json
 
+github_bot/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
