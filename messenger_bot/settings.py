@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     # 'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.github',
 
-    # 'github_bot'
+    'github_bot'
 ]
 
 MIDDLEWARE = [
@@ -151,3 +151,6 @@ SOCIALACCOUNT_PROVIDERS = {
             ],
         },
     }
+
+LOGIN_URL = '/accounts/login/'
+LOGIN_REDIRECT_URL = '/'
